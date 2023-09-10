@@ -3,4 +3,4 @@ qtd=float(input("\nEntre com a quantidade de Quilowatt: "))
 preco=sm/700
 vp=preco*qtd
 vd=vp*0.9
-print(f"\nPreço do quilowatt: {preco:.3}\nValor a ser pago: {vp:.3}\nValor com desconto: {vd:.3}\n")
+print(f"\nPreço do quilowatt: {preco:.2f}\nValor a ser pago: {vp:.2f}\nValor com desconto: {vd:.2f}\n")
